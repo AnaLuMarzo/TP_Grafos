@@ -53,7 +53,7 @@ public class PantallaBienvenida {
 		frame.setResizable(false);
 		frame.setTitle("Mapa de Argentina"); // Titulo de la ventana
 		frame.getContentPane().setBackground(new Color(210, 180, 140));
-		frame.setBounds(300, 20, 628, 399);
+		frame.setBounds(400, 50, 833, 520);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 
@@ -65,7 +65,7 @@ public class PantallaBienvenida {
 			}
 		});
 		botonPlay.setFont(new Font("Segoe UI Black", Font.PLAIN, 40));
-		botonPlay.setBounds(139, 200, 301, 65);
+		botonPlay.setBounds(256, 307, 301, 65);
 		frame.getContentPane().add(botonPlay);
 
 		botonPlay.setBackground(new Color(192, 224, 255));
@@ -74,16 +74,16 @@ public class PantallaBienvenida {
 		botonPlay.repaint();
 		
 		JLabel lblNewLabel = new JLabel("Provincias Argentinas");
-		lblNewLabel.setFont(new Font("Segoe UI Black", Font.PLAIN, 40));
-		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(59, 34, 480, 48);
+		lblNewLabel.setFont(new Font("Segoe UI Black", Font.PLAIN, 50));
+		lblNewLabel.setForeground(new Color(255, 228, 181));
+		lblNewLabel.setBounds(162, 52, 580, 88);
 		frame.getContentPane().add(lblNewLabel);
 		
 		// agregamos la figura de fondo
 		JLabel lblFondo = new JLabel("");
 		lblFondo.setForeground(SystemColor.controlHighlight);
-		lblFondo.setIcon(new ImageIcon("fondoBandera.png"));
-		lblFondo.setBounds(0, -100, 907, 480);
+		lblFondo.setIcon(new ImageIcon("C:\\Users\\user\\Documents\\GitHub\\TP_Grafos\\fondoBandera.jpg"));
+		lblFondo.setBounds(-74, -23, 910, 520);
 		frame.getContentPane().add(lblFondo);
 
 	}
