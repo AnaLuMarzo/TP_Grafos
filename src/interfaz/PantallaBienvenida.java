@@ -76,7 +76,7 @@ public class PantallaBienvenida {
 		JLabel lblNewLabel = new JLabel("Provincias Argentinas");
 		lblNewLabel.setFont(new Font("Segoe UI Black", Font.PLAIN, 40));
 		lblNewLabel.setForeground(new Color(255, 255, 255));
-		lblNewLabel.setBounds(59, 34, 480, 48);
+		lblNewLabel.setBounds(90, 50, 464, 65);
 		frame.getContentPane().add(lblNewLabel);
 		
 		// agregamos la figura de fondo

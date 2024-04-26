@@ -43,6 +43,10 @@ import negocio.Grafo;
 
 public class RegArg extends JFrame implements KeyListener {
 
+		/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 		private Grafo grafo = new Grafo();
 
 		
