@@ -48,7 +48,14 @@ public class RegArg extends JFrame implements KeyListener {
 	 */
 	private static final long serialVersionUID = 1L;
 		private Grafo grafo = new Grafo();
-
+		private JFrame frame;
+		private JPanel panelMapa;
+		private JPanel panelControles;
+		private JMapViewer _mapa;
+		private ArrayList<Coordinate> _lasCoordenadas;
+		private JButton btnEliminar;
+		private MapPolygonImpl _poligono;
+		private JButton btnDibujarPolgono ;
 		
 		public static void main(String[] args) {
 			EventQueue.invokeLater(new Runnable() {
